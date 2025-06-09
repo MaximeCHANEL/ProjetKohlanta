@@ -45,16 +45,16 @@ document.addEventListener("DOMContentLoaded", function () {
       const arrowSpan = document.createElement("span");
       arrowSpan.classList.add("arrow");
 
-      if (oldRank && newRank < oldRank) {
-        arrowSpan.innerHTML = "&#9650;"; // ▲
-        arrowSpan.classList.add("up");
-      } else if (oldRank && newRank > oldRank) {
-        arrowSpan.innerHTML = "&#9660;"; // ▼
-        arrowSpan.classList.add("down");
-      } else {
-        arrowSpan.innerHTML = "&#8212;"; // —
-        arrowSpan.classList.add("equal");
-      }
+      // if (oldRank && newRank < oldRank) {
+      //   arrowSpan.innerHTML = "&#9650;"; // ▲
+      //   arrowSpan.classList.add("up");
+      // } else if (oldRank && newRank > oldRank) {
+      //   arrowSpan.innerHTML = "&#9660;"; // ▼
+      //   arrowSpan.classList.add("down");
+      // } else {
+      //   arrowSpan.innerHTML = "&#8212;"; // —
+      //   arrowSpan.classList.add("equal");
+      // }
 
       classementCell.appendChild(arrowSpan);
       tableBody.appendChild(row);
